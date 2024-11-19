@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <nav class="pro-nav">
+        <p  href="#">Product Store</p>
+        <div title="Back To Products">
+            <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>Checkout</h1>
+        <div id="cart-items" class="mb-3"></div>
+        <h3>Total: e£ <span id="total">0</span></h3>
+        <button class="btn btn-primary" onclick="printBill()">Print Bill</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
